@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F148501E16CB1D410020184B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F148501D16CB1D410020184B /* UIKit.framework */; };
+		F148502016CB1D410020184B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F148501F16CB1D410020184B /* Foundation.framework */; };
+		F148502216CB1D410020184B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F148502116CB1D410020184B /* CoreGraphics.framework */; };
+		F148502816CB1D410020184B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F148502616CB1D410020184B /* InfoPlist.strings */; };
+		F148502A16CB1D410020184B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F148502916CB1D410020184B /* main.m */; };
+		F148502E16CB1D410020184B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F148502D16CB1D410020184B /* AppDelegate.m */; };
+		F148503016CB1D410020184B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F148502F16CB1D410020184B /* Default.png */; };
+		F148503216CB1D410020184B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F148503116CB1D410020184B /* Default@2x.png */; };
+		F148503416CB1D410020184B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F148503316CB1D410020184B /* Default-568h@2x.png */; };
+		F148503716CB1D410020184B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F148503616CB1D410020184B /* ViewController.m */; };
+		F148503A16CB1D410020184B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F148503816CB1D410020184B /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F148501A16CB1D410020184B /* ChicagoPizzaSpots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChicagoPizzaSpots.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F148501D16CB1D410020184B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F148501F16CB1D410020184B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F148502116CB1D410020184B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F148502516CB1D410020184B /* ChicagoPizzaSpots-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChicagoPizzaSpots-Info.plist"; sourceTree = "<group>"; };
+		F148502716CB1D410020184B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F148502916CB1D410020184B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F148502B16CB1D410020184B /* ChicagoPizzaSpots-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChicagoPizzaSpots-Prefix.pch"; sourceTree = "<group>"; };
+		F148502C16CB1D410020184B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F148502D16CB1D410020184B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F148502F16CB1D410020184B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F148503116CB1D410020184B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F148503316CB1D410020184B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F148503516CB1D410020184B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F148503616CB1D410020184B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F148503916CB1D410020184B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F148501716CB1D410020184B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F148501E16CB1D410020184B /* UIKit.framework in Frameworks */,
+				F148502016CB1D410020184B /* Foundation.framework in Frameworks */,
+				F148502216CB1D410020184B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F148501116CB1D410020184B = {
+			isa = PBXGroup;
+			children = (
+				F148502316CB1D410020184B /* ChicagoPizzaSpots */,
+				F148501C16CB1D410020184B /* Frameworks */,
+				F148501B16CB1D410020184B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F148501B16CB1D410020184B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F148501A16CB1D410020184B /* ChicagoPizzaSpots.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F148501C16CB1D410020184B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F148501D16CB1D410020184B /* UIKit.framework */,
+				F148501F16CB1D410020184B /* Foundation.framework */,
+				F148502116CB1D410020184B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F148502316CB1D410020184B /* ChicagoPizzaSpots */ = {
+			isa = PBXGroup;
+			children = (
+				F148502C16CB1D410020184B /* AppDelegate.h */,
+				F148502D16CB1D410020184B /* AppDelegate.m */,
+				F148503516CB1D410020184B /* ViewController.h */,
+				F148503616CB1D410020184B /* ViewController.m */,
+				F148503816CB1D410020184B /* ViewController.xib */,
+				F148502416CB1D410020184B /* Supporting Files */,
+			);
+			path = ChicagoPizzaSpots;
+			sourceTree = "<group>";
+		};
+		F148502416CB1D410020184B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F148502516CB1D410020184B /* ChicagoPizzaSpots-Info.plist */,
+				F148502616CB1D410020184B /* InfoPlist.strings */,
+				F148502916CB1D410020184B /* main.m */,
+				F148502B16CB1D410020184B /* ChicagoPizzaSpots-Prefix.pch */,
+				F148502F16CB1D410020184B /* Default.png */,
+				F148503116CB1D410020184B /* Default@2x.png */,
+				F148503316CB1D410020184B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F148501916CB1D410020184B /* ChicagoPizzaSpots */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F148503D16CB1D410020184B /* Build configuration list for PBXNativeTarget "ChicagoPizzaSpots" */;
+			buildPhases = (
+				F148501616CB1D410020184B /* Sources */,
+				F148501716CB1D410020184B /* Frameworks */,
+				F148501816CB1D410020184B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChicagoPizzaSpots;
+			productName = ChicagoPizzaSpots;
+			productReference = F148501A16CB1D410020184B /* ChicagoPizzaSpots.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F148501216CB1D410020184B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Nirav Amin";
+			};
+			buildConfigurationList = F148501516CB1D410020184B /* Build configuration list for PBXProject "ChicagoPizzaSpots" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F148501116CB1D410020184B;
+			productRefGroup = F148501B16CB1D410020184B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F148501916CB1D410020184B /* ChicagoPizzaSpots */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F148501816CB1D410020184B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F148502816CB1D410020184B /* InfoPlist.strings in Resources */,
+				F148503016CB1D410020184B /* Default.png in Resources */,
+				F148503216CB1D410020184B /* Default@2x.png in Resources */,
+				F148503416CB1D410020184B /* Default-568h@2x.png in Resources */,
+				F148503A16CB1D410020184B /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F148501616CB1D410020184B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F148502A16CB1D410020184B /* main.m in Sources */,
+				F148502E16CB1D410020184B /* AppDelegate.m in Sources */,
+				F148503716CB1D410020184B /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F148502616CB1D410020184B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F148502716CB1D410020184B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F148503816CB1D410020184B /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F148503916CB1D410020184B /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F148503B16CB1D410020184B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F148503C16CB1D410020184B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F148503E16CB1D410020184B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChicagoPizzaSpots/ChicagoPizzaSpots-Prefix.pch";
+				INFOPLIST_FILE = "ChicagoPizzaSpots/ChicagoPizzaSpots-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F148503F16CB1D410020184B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChicagoPizzaSpots/ChicagoPizzaSpots-Prefix.pch";
+				INFOPLIST_FILE = "ChicagoPizzaSpots/ChicagoPizzaSpots-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F148501516CB1D410020184B /* Build configuration list for PBXProject "ChicagoPizzaSpots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F148503B16CB1D410020184B /* Debug */,
+				F148503C16CB1D410020184B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F148503D16CB1D410020184B /* Build configuration list for PBXNativeTarget "ChicagoPizzaSpots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F148503E16CB1D410020184B /* Debug */,
+				F148503F16CB1D410020184B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F148501216CB1D410020184B /* Project object */;
+}
